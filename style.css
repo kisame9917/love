@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000; /* Thêm nền đen để đảm bảo tương phản tốt */
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+svg {
+  position: absolute;
+  display: none; /* Ẩn SVG gốc, chỉ hiện 3D */
+}
